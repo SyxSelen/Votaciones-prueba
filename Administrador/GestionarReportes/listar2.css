@@ -1,0 +1,140 @@
+body {
+    font-family: monospace;
+}
+.contenedor{
+
+    min-height: 100vh;
+
+}
+li.nav-item.dropdown{
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+a.nav-link.active{
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cont{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+table caption {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+    caption-side: top;
+    text-align: center;
+    color: #f97d25;
+    text-shadow: -2px -2px 0px rgb(255, 255, 255), 2px -2px 0px rgb(255, 255, 255), -2px 2px 0px rgb(255, 255, 255), 2px 2px 0px rgb(255, 255, 255) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+table thead th{ 
+    text-transform: uppercase;
+    background-color: #f97d25;
+}
+
+
+footer{
+    background: #f97d25;
+    color: #fff;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+footer p{
+    font-size: 20px;
+}
+@media screen and (max-width: 690px) {
+    table {
+        border: 0px;
+    }
+    table caption {
+        font-size: 22px;
+    }
+    table thead {
+        display: none;
+    }
+    table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    table th, table td {
+        font-size: 12px;
+    }
+    table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    table  td:last-child {
+        border-bottom: 0px;
+    }
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}
+@media screen and (max-width: 600px) {
+    table {
+        border: 0px;
+    }
+    table caption {
+        font-size: 22px;
+    }
+    table thead {
+        display: none;
+    }
+    table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    table th, table td {
+        font-size: 12px;
+    }
+    table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    table  td:last-child {
+        border-bottom: 0px;
+    }
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+}

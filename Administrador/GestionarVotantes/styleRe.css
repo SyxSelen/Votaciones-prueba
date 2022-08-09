@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+li.nav-item.dropdown{
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+a.nav-link.active{
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+form{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    background: rgb(231, 231, 231);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px  rgba(211, 205, 205, 0.9);
+}
+h2{
+    text-align: center;
+}
+input.form-control{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0 ;
+    border: none;
+    border-bottom: 3px solid rgb(7, 175, 21);
+    background: transparent;
+    color: #000;
+}
+input.form-control:focus{
+    background: linear-gradient(to bottom, transparent, rgb(180, 179, 179));
+    outline: none;
+    border-bottom: 3px solid rgb(7, 175, 21); 
+}
+select.form-control{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0 ;
+    border: none;
+    border-bottom: 3px solid rgb(7, 175, 21);
+    background: transparent;  
+}
+select.form-control:focus{
+    background: linear-gradient(to bottom, transparent, rgb(180, 179, 179));
+    outline: none;
+    border-bottom: 3px solid rgb(7, 175, 21); 
+}
+textarea.form-control{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0 ;
+    border: none;
+    border-bottom: 3px solid rgb(7, 175, 21);
+    background: transparent;
+    color: #000;
+    resize: none;
+}
+textarea.form-control:focus{
+    background: linear-gradient(to bottom, transparent, rgb(180, 179, 179));
+    outline: none;
+    border-bottom: 3px solid rgb(7, 175, 21); 
+}
+div.col.button{
+    display: flex;
+    justify-content: center;
+}
+button.btn.btn-primary{
+    background: rgb(7, 175, 21);
+    border-bottom: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+}
+button.btn.btn-primary:active{
+    background: rgb(5, 218, 23);
+    border-bottom: none;
+    padding: 12px;
+}
+footer{
+    background: #f97d25;
+    color: #fff;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+footer p{
+    font-size: 20px;
+}
